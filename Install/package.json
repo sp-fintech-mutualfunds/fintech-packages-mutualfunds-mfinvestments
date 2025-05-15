@@ -1,0 +1,57 @@
+{
+	"name" : "MfInvestments",
+	"display_name" : "Mutual Fund Investments",
+	"description" : "<p>Fintech Mutual Fund Investments</p>",
+	"module_type" : "packages",
+	"app_type" : "fintech",
+	"category" : "mutualfunds",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-packages-mutualfunds-mfinvestments",
+	"class" : "Apps\\Fintech\\Packages\\Mf\\Investments\\MfInvestments",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.13",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"apptype" : 
+		{
+			"name" : "Fintech",
+			"version" : "0.3.0",
+			"repo" : "https://github.com/sp-fintech/fintech"
+		},
+		"packages" : 
+		[
+			{
+				"name" : "MfPortfolios",
+				"version" : "0.4.0",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-packages-mutualfunds-mfportfolios"
+			},
+			
+			{
+				"name" : "MfTransactions",
+				"version" : "0.10.0",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-packages-mutualfunds-mftransactions"
+			}
+		],
+		"middlewares" : [],
+		"externals" : 
+		{
+			"composer" : 
+			{
+				"require" : []
+			},
+			"config" : 
+			{
+				"allow-plugins" : []
+			},
+			"extra" : 
+			{
+				"patches" : []
+			}
+		}
+	},
+	"settings" : []
+}
