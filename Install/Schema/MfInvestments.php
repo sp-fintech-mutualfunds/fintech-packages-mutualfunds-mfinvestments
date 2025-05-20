@@ -71,6 +71,13 @@ class MfInvestments
                     ]
                 ),
                 new Column(
+                    'sold_amount',
+                    [
+                        'type'          => Column::TYPE_FLOAT,
+                        'notNull'       => true,
+                    ]
+                ),
+                new Column(
                     'units',
                     [
                         'type'          => Column::TYPE_FLOAT,
@@ -104,6 +111,14 @@ class MfInvestments
                     [
                         'type'          => Column::TYPE_FLOAT,
                         'notNull'       => false,
+                    ]
+                ),
+                new Column(
+                    'status',
+                    [
+                        'type'          => Column::TYPE_VARCHAR,
+                        'size'          => 10,
+                        'notNull'       => true,
                     ]
                 )
             ],

@@ -22,6 +22,8 @@ class AppsFintechMfInvestments extends BaseModel
 
     public $amount;
 
+    public $sold_amount;
+
     public $units;
 
     public $latest_value;
@@ -31,4 +33,6 @@ class AppsFintechMfInvestments extends BaseModel
     public $diff;
 
     public $xirr;
+
+    public $status;
 }
