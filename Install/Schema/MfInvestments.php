@@ -85,6 +85,13 @@ class MfInvestments
                     ]
                 ),
                 new Column(
+                    'latest_nav',
+                    [
+                        'type'          => Column::TYPE_FLOAT,
+                        'notNull'       => true,
+                    ]
+                ),
+                new Column(
                     'latest_value',
                     [
                         'type'          => Column::TYPE_FLOAT,

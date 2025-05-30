@@ -26,6 +26,8 @@ class AppsFintechMfInvestments extends BaseModel
 
     public $units;
 
+    public $latest_nav;
+
     public $latest_value;
 
     public $latest_value_date;
