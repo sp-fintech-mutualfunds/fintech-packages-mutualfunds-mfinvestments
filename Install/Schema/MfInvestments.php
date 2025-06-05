@@ -127,6 +127,14 @@ class MfInvestments
                         'size'          => 10,
                         'notNull'       => true,
                     ]
+                ),
+                new Column(
+                    'start_date',
+                    [
+                        'type'          => Column::TYPE_VARCHAR,
+                        'size'          => 15,
+                        'notNull'       => true,
+                    ]
                 )
             ],
             'options' => [

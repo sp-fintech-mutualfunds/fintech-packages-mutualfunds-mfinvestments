@@ -37,4 +37,6 @@ class AppsFintechMfInvestments extends BaseModel
     public $xirr;
 
     public $status;
+
+    public $start_date;
 }
