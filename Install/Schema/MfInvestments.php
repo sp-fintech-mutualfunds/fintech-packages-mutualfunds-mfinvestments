@@ -43,13 +43,6 @@ class MfInvestments
                     ]
                 ),
                 new Column(
-                    'amfi_code',
-                    [
-                        'type'          => Column::TYPE_INTEGER,
-                        'notNull'       => false,
-                    ]
-                ),
-                new Column(
                     'amc_id',
                     [
                         'type'          => Column::TYPE_INTEGER,

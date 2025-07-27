@@ -14,8 +14,6 @@ class AppsFintechMfInvestments extends BaseModel
 
     public $portfolio_id;
 
-    public $amfi_code;
-
     public $amc_id;
 
     public $scheme_id;
